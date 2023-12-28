@@ -7,11 +7,12 @@ body {
     background-color: rgb(65, 65, 77);
     margin: 0 10px;
 }
+/* The header */
 h1 {
     color: rgba(225, 117, 228, 0.97);
     text-align: center;
 }
-
+/* This is the parent div */
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +20,7 @@ h1 {
     width: 100%;
     border: 0cap;
 }
+/* The child div */
 div {
     flex-basis: 32%;
     margin: 10px 0;
@@ -27,6 +29,7 @@ div {
     border: 2px dotted;
     border-color: rgb(206, 206, 206);
 }
+/* The second header */
 h2 {
     color: rgb(219, 133, 222);
     padding-left: 10px;
@@ -40,14 +43,17 @@ h2 {
     background-color: rgb(61, 61, 69);
     border-color: rgb(161, 165, 169);
 }
+/* This is the paragraph */
 p {
     margin: 15px 0;
     color: rgba(236, 152, 239, 0.956);
 }
-.header, pre {
+/* The paragraph for the main header */
+.header {
     color: rgba(255, 255, 255, 0.663);
     text-align: center;
 }
+/* The content inside the second paragraph */
 pre {
     color: rgba(255, 255, 255, 0.663);
     padding: 20px;
@@ -55,6 +61,7 @@ pre {
     text-align: start;
     background:  rgba(232, 102, 236, 0.3) ;
 }
+/* The footer */
 footer {
     font-size: 30px;
     color: rgba(225, 117, 228, 0.97);
